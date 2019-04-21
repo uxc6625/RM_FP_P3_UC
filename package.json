@@ -20,8 +20,30 @@
   },
   "homepage": "https://github.com/uxc6625/RM_FP_P3_UC#readme",
   "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.17.2"
+    "eslint-plugin-import": "^2.17.2",
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.4",
+    "connect-redis": "^3.4.1",
+    "cookie-parser": "^1.4.4",
+    "csurf": "^1.9.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "express-session": "^1.16.1",
+    "helmet": "^3.16.0",
+    "mongoose": "^5.5.2",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "serve-favicon": "^2.5.0",
+    "underscore": "^1.9.1",
+    "ws-yummly": "^1.0.24"
   }
 }
