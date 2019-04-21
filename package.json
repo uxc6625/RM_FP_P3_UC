@@ -1,0 +1,27 @@
+{
+  "name": "430-react-project-3",
+  "version": "1.0.0",
+  "engines": {
+    "node": "8.4"
+  },
+  "description": "Final Project 430 RM",
+  "main": "./server/app.js",
+  "scripts": {
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uxc6625/RM_FP_P3_UC.git"
+  },
+  "author": "Ulijah Charles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uxc6625/RM_FP_P3_UC/issues"
+  },
+  "homepage": "https://github.com/uxc6625/RM_FP_P3_UC#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.2"
+  }
+}
