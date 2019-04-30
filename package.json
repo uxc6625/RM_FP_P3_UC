@@ -1,7 +1,6 @@
 {
-  "name": "mern-chat-circleci",
+  "name": "Web-chat-430",
   "version": "0.0.0",
-  "private": true,
   "engines": {
     "node": "10.14.2",
     "npm": "6.4.x"
@@ -16,6 +15,8 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=true npm install --prefix client && npm run build --prefix client"
   },
+  "author": "Ulijah Charles",
+  "license": "Apache 2.0",
   "dependencies": {
     "@pusher/chatkit-server": "^1.1.0",
     "bcrypt": "^3.0.6",
