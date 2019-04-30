@@ -2,12 +2,16 @@
   "name": "mern-chat-circleci",
   "version": "0.0.0",
   "private": true,
+  "engines": {
+    "node": "10.14.2",
+    "npm": "6.4.x"
+  },
   "scripts": {
     "client-install": "npm install --prefix client",
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
-    "pretest": "cd client && yarn test && npm run lint",
+    "pretest": "cd client && npm run lint",
     "test": "echo `ESLint is complete`",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
