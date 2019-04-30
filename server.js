@@ -1,5 +1,5 @@
 var app = require('./app');
-var debug = require('debug')('mern-chat-circleci:server');
+var debug = require('debug')('web-chat-chat:server');
 var http = require('http');
 
 /**
